@@ -1,10 +1,10 @@
 {
 	"FileVersion": 3,
-	"SemVersion": "1.0.0",
+	"SemVersion": "1.0.1",
 	"AcceptsAnyRemoteVersion": false,
 	"Version": 1,
-	"VersionName": "1.0.0",
-	"FriendlyName": "WaterPoolsPlus",
+	"VersionName": "1.0.1",
+	"FriendlyName": "Water Pools Plus",
 	"Description": "Place your Water Extractors with style - in a portable Water Pool!",
 	"Category": "Modding",
 	"CreatedBy": "Scordium (Topaz#6700)",
@@ -15,5 +15,13 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"SemVersion": "^3.4.1",
+			"bIsOptional": false,
+			"Enabled": true
+		}
+	]
 }
