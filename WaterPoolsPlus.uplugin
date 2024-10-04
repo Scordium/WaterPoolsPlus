@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
-	"SemVersion": "1.0.3",
+	"SemVersion": "1.0.6",
 	"AcceptsAnyRemoteVersion": false,
 	"Version": 1,
-	"VersionName": "1.0.3",
+	"VersionName": "1.0.6",
 	"FriendlyName": "Water Pools Plus",
 	"Description": "Place your Water Extractors with style - in a portable Water Pool!",
 	"Category": "Modding",
@@ -19,9 +19,10 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.6.0",
+			"SemVersion": "^3.8.0",
 			"bIsOptional": false,
 			"Enabled": true
 		}
-	]
+	],
+	"GameVersion": ">=365306"
 }
